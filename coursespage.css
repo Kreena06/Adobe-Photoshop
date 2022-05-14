@@ -1,0 +1,144 @@
+/*-------------------------- WITH OWL CAROUSEL ------------------------------------------------------------*/
+
+/* @media only screen and (min-width: 1281px) and (max-width: 1367px){
+  .owl-carousel .item .panel .panel-heading .bollywood-dancing{
+    height: 239px;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  #animate_know_more_btn, #lifeskill_know_more_btn, #illustrator_know_more_btn{
+      margin-top: 6%;
+  }
+  #dancing_know_more_btn{
+    margin-top: 5%;
+  }
+  #coding_know_more_btn{
+    margin-top: 5.8%;
+  }
+  .owl-carousel .item .panel .panel-heading .bollywood-dancing{
+    height: 226px;
+  }
+} 
+
+@media screen and (min-width : 359px) and (max-width : 420px){
+  .our-courses{
+    padding-top: 5%;
+  }
+
+  .owl-carousel {
+    padding-top: 10%;
+  }
+
+  #animate_know_more_btn{
+    margin-top: 0%;
+  }
+
+  #lifeskill_know_more_btn{
+    margin-top: 13.5%;
+  }
+
+  #illustrator_know_more_btn{
+    margin-top: 6.5%;
+  }
+
+  #dancing_know_more_btn{
+    margin-top: 5.5%;
+  }
+  
+  .owl-carousel .item .panel .panel-heading .coding{
+    height: 226px;
+  }
+
+  #coding_know_more_btn{
+    margin-top: 5%;
+  }
+
+  .page-footer .container .row .col-lg-12 p{
+    font-size: 14px;
+  }
+
+  ALTERNATE LOGIN BUTTON MEDIA QUERY START (THIS BUTTON IS ONLY VISIBLE IN MOBILE VIEW)
+
+  .header-area .container .row .col-12 .main-nav .nav li .login-anch{
+    display: none;
+  }
+
+  .alt-login-btn-div{
+      display: block;
+      width: 50%;
+      margin-left: 26%;
+      margin-bottom: 10%;
+      margin-top: 15%;
+  }
+  .alt-login-btn-div a .alt-login-btn{
+      width: 100%;
+  }
+
+  ALTERNATE LOGIN BUTTON MEDIA QUERY END (THIS BUTTON IS ONLY VISIBLE IN MOBILE VIEW)
+
+} */
+
+
+
+
+/*-------------------------- WITHOUT OWL CAROUSEL--------------------------------------------*/
+
+@media only screen and (min-width: 1281px) and (max-width: 1367px){
+  /* body{
+    background-color: green;
+  } */
+  .container-fluid .section1 .item, .container-fluid .section2 .item, .container-fluid .section3 .item{
+    width: 28%;
+  }
+
+  .container-fluid .section1 .item .panel .panel-footer #lifeskill-btn{
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 1280px){
+  .container-fluid .section1 .item .panel .panel-footer #lifeskill-btn{
+    margin-top: 6.2%;
+  }
+}
+
+@media (max-width: 1080px){
+  .container-fluid .section1 .item .panel .panel-footer #lifeskill-btn{
+    margin-top: 15%;
+  }
+  .container-fluid .section2 .item .panel .panel-footer #coding-btn{
+    margin-top: 16%;
+  }
+  .container-fluid .section3 .item .panel .panel-footer #coding-btn{
+    margin-top: 16%;
+  }
+}
+
+@media screen and (min-width : 359px) and (max-width : 420px){
+  .container-fluid .section1, .container-fluid .section2 ,.container-fluid .section3{
+    display: block;
+  }
+
+  .container-fluid .section1 .item, .container-fluid .section2 .item, .container-fluid .section3 .item{
+    margin-bottom: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-area .container .row .col-12 .main-nav .nav li .login-anch{
+    display: none;
+  }
+
+  .alt-login-btn-div{
+      display: block;
+      width: 50%;
+      margin-left: 26%;
+      margin-bottom: 10%;
+      margin-top: 15%;
+  }
+  .alt-login-btn-div a .alt-login-btn{
+      width: 100%;
+  }
+}

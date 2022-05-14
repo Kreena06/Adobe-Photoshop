@@ -1,0 +1,123 @@
+.header-area .container .row .col-12 .main-nav .logo{
+  width: 170px;
+  height: auto;
+  margin-left: -7%;
+}
+
+/* .owl-carousel .item .panel .panel-heading .bollywood-dancing{
+  height: 272px; width: 100%;
+} */
+
+/* ALTERNATE LOGIN BUTTON CSS START (THIS BUTTON IS ONLY VISIBLE IN MOBILE VIEW)*/
+
+.alt-login-btn-div{
+  margin-bottom: 10%;
+  margin-left: 14%;
+  display: none;
+}
+
+.alt-login-btn-div a .alt-login-btn{
+  border: 1px solid #FE3F40;
+  border-radius: 6px;
+  background-color: #FE3F40;
+  color: white;
+  padding: 8px;
+  width: 10%;
+}
+
+.alt-login-btn-div a .alt-login-btn:hover{
+  border: 1px solid #3399FF;
+  background-color: #3399FF;
+}
+
+/* ALTERNATE LOGIN BUTTON CSS END (THIS BUTTON IS ONLY VISIBLE IN MOBILE VIEW)*/
+
+
+select{
+  border:none; width: 100%; background-color: #D1F3FF; border-radius: 30px; height: 60px; padding: 2% 3%;
+}
+
+select:focus{ 
+  outline: none;
+}
+
+/*-------------------------- WITHOUT OWL CAROUSEL--------------------------------------------*/
+.section1, .section2, .section3{
+  margin-top: 5%;
+  width: 100%;
+  margin-bottom: 5%;
+  display: inline-flex;
+}
+
+.section1 .item, .section2 .item, .section3 .item{
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.section1 .item:hover, .section2 .item:hover, .section3 .item:hover{
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.section1 .item .panel .panel-body .course-title, .section2 .item .panel .panel-body .course-title, .section3 .item .panel .panel-body .course-title{
+  padding: 4%;
+  margin-bottom: 4%;
+}
+
+.section1 .item .panel .panel-heading, .section2 .item .panel .panel-heading,.section3 .item .panel .panel-heading{
+  padding: 2%;
+}
+
+.section1 .item .panel .panel-body, .section2 .item .panel .panel-body ,.section3 .item .panel .panel-body{
+  background-color: lightgray;
+}
+
+
+/*-------------------------- WITH OWL CAROUSEL ------------------------------------------------------------*/
+
+  /* .owl-prev span, .owl-next span{
+      font-size: 40px;
+    }
+
+  .owl-prev span:hover, .owl-next span:hover{
+      background-color: white;
+      color: black;
+    }
+
+  @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+  .panel-pricing {
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+  }
+  .panel-pricing:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  }
+  .panel-pricing .panel-heading {
+    padding: 20px 10px;
+  }
+  .panel-pricing .panel-heading .fa {
+    margin-top: 10px;
+    font-size: 58px;
+  }
+  .panel-pricing .list-group-item {
+    color: #777777;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+  }
+  .panel-pricing .list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .panel-pricing .list-group-item:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+  .panel-pricing .panel-body {
+    background-color: #f0f0f0;
+    font-size: 40px;
+    color: #777777;
+    padding: 20px;
+    margin: 0px;
+    margin-top:absolute;
+  } */
